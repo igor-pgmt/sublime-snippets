@@ -1,12 +1,11 @@
 <snippet>
 	<content><![CDATA[
-echo '<br /><br /><br />'; echo '<pre>'; var_dump(${1}); echo '</pre>'; exit;
-
+echo '<br /><br /><br />'; echo '<pre>→'; var_dump(${1}); echo '←</pre>'; exit;
 ${0}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>vardexit</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
+	<description>vardump with pre and exit</description>
 </snippet>
-

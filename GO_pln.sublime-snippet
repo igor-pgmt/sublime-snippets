@@ -6,4 +6,5 @@ fmt.Println(${0})
 	<tabTrigger>pln</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
+	<description>fmt.Println()</description>
 </snippet>

@@ -8,5 +8,6 @@ ${0}
 	<tabTrigger>ebr1</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
+	<description>echo 1 br</description>
 </snippet>
 
