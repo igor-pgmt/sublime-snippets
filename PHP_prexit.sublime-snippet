@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-echo '<br /><br /><br />'; print_r(${1}); exit;
+echo '<br /><br /><br />→'; print_r(${1}); echo '←'; exit;
 
 ${0}
 ]]></content>
@@ -8,5 +8,6 @@ ${0}
 	<tabTrigger>prexit</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
+	<description>print_r and exit</description>
 </snippet>
 
